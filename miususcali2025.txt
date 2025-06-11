@@ -1,0 +1,92 @@
+miususcali2025/
+├── index.html    
+  <!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>miususcali2025 - Descarga Música Libre</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #1e1e1e;
+      color: white;
+    }
+    header {
+      background-color: #111;
+      padding: 1rem;
+      text-align: center;
+    }
+    h1 {
+      margin: 0;
+      font-size: 2rem;
+      color: #00ffcc;
+    }
+    .content {
+      padding: 2rem;
+      max-width: 800px;
+      margin: auto;
+    }
+    .song {
+      background-color: #333;
+      margin-bottom: 1rem;
+      padding: 1rem;
+      border-radius: 8px;
+    }
+    audio {
+      width: 100%;
+    }
+    a.download {
+      display: inline-block;
+      margin-top: 0.5rem;
+      background: #00ffcc;
+      color: #000;
+      padding: 0.5rem 1rem;
+      border-radius: 5px;
+      text-decoration: none;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: #111;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>miususcali2025</h1>
+    <p>Descarga y escucha música libre de derechos</p>
+  </header>
+
+  <div class="content">
+    <div class="song">
+      <h2>Canción 1 - Inspiración Libre</h2>
+      <audio controls>
+        <source src="musica/inspiracion-libre.mp3" type="audio/mp3">
+        Tu navegador no soporta el elemento de audio.
+      </audio>
+      <a class="download" href="musica/inspiracion-libre.mp3" download>Descargar</a>
+    </div>
+
+    <div class="song">
+      <h2>Canción 2 - Caminos del Sol</h2>
+      <audio controls>
+        <source src="musica/caminos-del-sol.mp3" type="audio/mp3">
+        Tu navegador no soporta el elemento de audio.
+      </audio>
+      <a class="download" href="musica/caminos-del-sol.mp3" download>Descargar</a>
+    </div>
+
+    <!-- Puedes agregar más canciones copiando el bloque .song -->
+  </div>
+
+  <footer>
+    &copy; 2025 miususcali2025 - Música libre para todos
+  </footer>
+</body>
+</html>
+└── musica/
+    ├── inspiracion-libre.mp3
+    └── caminos-del-sol.mp3
